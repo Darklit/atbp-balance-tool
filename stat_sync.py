@@ -189,7 +189,8 @@ CHARACTERS_CONFIG = {
         "characters/finn/finn_skin_jakehat.xml",
         "characters/finn/finn_skin_lute.xml",
         "characters/finn/finn_skin_pj.xml",
-        "characters/finn/finn_skin_wizard.xml",
+        "characters/finn/finn_skin_shadow.xml",
+        "characters/finn/finn_skin_wizard.xml"
     ],
     "characters/fionna/fionna.xml": [
         "characters/fionna/fionna_skin_ballgown.xml",
