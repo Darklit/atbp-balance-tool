@@ -190,7 +190,8 @@ CHARACTERS_CONFIG = {
         "characters/finn/finn_skin_lute.xml",
         "characters/finn/finn_skin_pj.xml",
         "characters/finn/finn_skin_shadow.xml",
-        "characters/finn/finn_skin_wizard.xml"
+        "characters/finn/finn_skin_wizard.xml",
+        "characters/finn/bot_finn.xml"
     ],
     "characters/fionna/fionna.xml": [
         "characters/fionna/fionna_skin_ballgown.xml",
@@ -210,19 +211,22 @@ CHARACTERS_CONFIG = {
     ],
     "characters/iceking/iceking.xml": [
         "characters/iceking/iceking_skin_icequeen.xml",
-        "characters/iceking/iceking_skin_young.xml"
+        "characters/iceking/iceking_skin_young.xml",
+        "characters/iceking/bot_iceking.xml"
     ],
     "characters/jake/jake.xml": [
         "characters/jake/jake_skin_cake.xml",
         "characters/jake/jake_skin_guardian.xml",
         "characters/jake/jake_skin_randy.xml",
         "characters/jake/jake_skin_wizard.xml",
-        "characters/jake/jake_skin_zombie.xml"
+        "characters/jake/jake_skin_zombie.xml",
+        "characters/jake/bot_jake.xml"
     ],
     "characters/lemongrab/lemongrab.xml": [
         "characters/lemongrab/lemongrab_skin_2.xml",
         "characters/lemongrab/lemongrab_skin_fat.xml",
-        "characters/lemongrab/lemongrab_skin_underwear.xml"
+        "characters/lemongrab/lemongrab_skin_underwear.xml",
+        "characters/lemongrab/bot_lemongrab.xml"
     ],
     "characters/lich/lich.xml": [
         "characters/lich/lich_skin_skeleton.xml"
