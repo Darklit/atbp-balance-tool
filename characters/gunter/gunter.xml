@@ -62,7 +62,7 @@
         <healthPerLevel>25</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
-        <spellResist>0</spellResist>
+        <spellResist>10</spellResist>
         <spellResistPerLevel>1</spellResistPerLevel>
         <spellDamage>30</spellDamage>
         <spellDamagePerLevel>3</spellDamagePerLevel>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -40,115 +41,115 @@
       <skinType>finn</skinType>
       <skinIcon>finn</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>MELEE</attackType>
-	  <role1>FIGHTER</role1>
-	  <role2>TRAPPER</role2>
+      <attackType>MELEE</attackType>
+      <role1>FIGHTER</role1>
+      <role2>TRAPPER</role2>
       <actorStats>
-        <attackDamage>65</attackDamage>
+        <attackDamage>50</attackDamage>
         <attackDamagePerLevel>5</attackDamagePerLevel>
-        <attackSpeed>1800</attackSpeed>
-        <attackSpeedPerLevel>30</attackSpeedPerLevel>
-        <attackRange>1.8</attackRange>
-        <criticalChance>50</criticalChance>
+        <attackSpeed>1500</attackSpeed>
+        <attackSpeedPerLevel>50</attackSpeedPerLevel>
+        <attackRange>1.5</attackRange>
+        <criticalChance>0</criticalChance>
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>0</lifeSteal>
         <armorPenetration>0</armorPenetration>
         <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>650</health>
-        <healthPerLevel>25</healthPerLevel>
+        <health>425</health>
+        <healthPerLevel>35</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
-        <spellResistPerLevel>2</spellResistPerLevel>
-        <spellDamage>20</spellDamage>
-        <spellDamagePerLevel>3</spellDamagePerLevel>
+        <spellResistPerLevel>1</spellResistPerLevel>
+        <spellDamage>15</spellDamage>
+        <spellDamagePerLevel>2</spellDamagePerLevel>
         <coolDownReduction>0</coolDownReduction>
         <coolDownReductionPerLevel>0</coolDownReductionPerLevel>
         <spellVamp>0</spellVamp>
         <spellPenetration>0</spellPenetration>
         <aggroRange>4</aggroRange>
-        <speed>2.8</speed>
+        <speed>3</speed>
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
-        <spellName>billy_spell_1_name</spellName>
-        <spellDescription>billy_spell_1_description</spellDescription>
-        <spellShortDescription>billy_spell_1_short_description</spellShortDescription>
-        <spellIconImage>icon_billy_s1</spellIconImage>
+        <spellName>finn_spell_1_name</spellName>
+        <spellDescription>finn_spell_1_description</spellDescription>
+        <spellShortDescription>finn_spell_1_short_description</spellShortDescription>
+        <spellIconImage>icon_finn_s1</spellIconImage>
         <spellCastIndicator>NONE</spellCastIndicator>
         <spellRangeImage>none</spellRangeImage>
-        <spellAreaImage>none</spellAreaImage>
+        <spellAreaImage>target_circle_2x2</spellAreaImage>
         <spellRange>0</spellRange>
         <castType>INSTANT</castType>
-        <castDelay>250</castDelay>
+        <castDelay>0</castDelay>
         <spellCoolDown>10000</spellCoolDown>
-        <spellGlobalCoolDown>250</spellGlobalCoolDown>
-        <damage>25</damage>
-        <damageRatio>0.7</damageRatio>
-        <spellArea>0</spellArea>
-        <spellDuration>4000</spellDuration>
+        <spellGlobalCoolDown>0</spellGlobalCoolDown>
+        <damage>20</damage>
+        <damageRatio>0.6</damageRatio>
+        <spellArea>2</spellArea>
+        <spellDuration>3000</spellDuration>
       </spell1>
       <spell2>
         <spellType>SPELL2</spellType>
-        <spellName>billy_spell_2_name</spellName>
-        <spellDescription>billy_spell_2_description</spellDescription>
-        <spellShortDescription>billy_spell_2_short_description</spellShortDescription>
-        <spellIconImage>icon_billy_s2</spellIconImage>
-        <spellCastIndicator>AOE</spellCastIndicator>
-        <spellRangeImage>target_circle_10x10</spellRangeImage>
-        <spellAreaImage>target_circle_4x4</spellAreaImage>
+        <spellName>finn_spell_2_name</spellName>
+        <spellDescription>finn_spell_2_description</spellDescription>
+        <spellShortDescription>finn_spell_2_short_description</spellShortDescription>
+        <spellIconImage>icon_finn_s2</spellIconImage>
+        <spellCastIndicator>DYNAMIC_LINE</spellCastIndicator>
+        <spellRangeImage>none</spellRangeImage>
+        <spellAreaImage>target_rectangle_5x2</spellAreaImage>
         <spellRange>5</spellRange>
         <castType>AIMED</castType>
         <castDelay>0</castDelay>
         <spellCoolDown>12000</spellCoolDown>
-        <spellGlobalCoolDown>250</spellGlobalCoolDown>
-        <damage>65</damage>
-        <damageRatio>0.5</damageRatio>
+        <spellGlobalCoolDown>500</spellGlobalCoolDown>
+        <damage>20</damage>
+        <damageRatio>0.6</damageRatio>
         <spellArea>2</spellArea>
-        <spellDuration>750</spellDuration>
+        <spellDuration>1500</spellDuration>
       </spell2>
       <spell3>
         <spellType>SPELL3</spellType>
-        <spellName>billy_spell_3_name</spellName>
-        <spellDescription>billy_spell_3_description</spellDescription>
-        <spellShortDescription>billy_spell_3_short_description</spellShortDescription>
-        <spellIconImage>icon_billy_s3</spellIconImage>
-        <spellCastIndicator>LINE</spellCastIndicator>
+        <spellName>finn_spell_3_name</spellName>
+        <spellDescription>finn_spell_3_description</spellDescription>
+        <spellShortDescription>finn_spell_3_short_description</spellShortDescription>
+        <spellIconImage>icon_finn_s3</spellIconImage>
+        <spellCastIndicator>NONE</spellCastIndicator>
         <spellRangeImage>none</spellRangeImage>
-        <spellAreaImage>target_rectangle_5x2</spellAreaImage>
-        <spellRange>5.5</spellRange>
-        <castType>AIMED</castType>
-        <castDelay>1000</castDelay>
-        <spellCoolDown>55000</spellCoolDown>
-        <spellGlobalCoolDown>1500</spellGlobalCoolDown>
-        <damage>150</damage>
-        <damageRatio>0.4</damageRatio>
-        <spellArea>2.25</spellArea>
-        <spellDuration>4500</spellDuration>
+        <spellAreaImage>none</spellAreaImage>
+        <spellRange>3.675</spellRange>
+        <castType>INSTANT</castType>
+        <castDelay>500</castDelay>
+        <spellCoolDown>45000</spellCoolDown>
+        <spellGlobalCoolDown>1000</spellGlobalCoolDown>
+        <damage>65</damage>
+        <damageRatio>0.5</damageRatio>
+        <spellArea>0.5</spellArea>
+        <spellDuration>5000</spellDuration>
       </spell3>
       <spell4>
         <spellType>PASSIVE</spellType>
-        <spellName>billy_spell_4_name</spellName>
-        <spellDescription>billy_spell_4_description</spellDescription>
-        <spellShortDescription>billy_spell_4_short_description</spellShortDescription>
-        <spellIconImage>icon_billy_passive</spellIconImage>
+        <spellName>finn_spell_4_name</spellName>
+        <spellDescription>finn_spell_4_description</spellDescription>
+        <spellShortDescription>finn_spell_4_short_description</spellShortDescription>
+        <spellIconImage>icon_finn_passive</spellIconImage>
         <spellCastIndicator>NONE</spellCastIndicator>
         <spellRangeImage>none</spellRangeImage>
         <spellAreaImage>none</spellAreaImage>
         <spellRange>0</spellRange>
         <castType>INSTANT</castType>
         <castDelay>0</castDelay>
-        <spellCoolDown>0</spellCoolDown>
+        <spellCoolDown>5000</spellCoolDown>
         <spellGlobalCoolDown>0</spellGlobalCoolDown>
         <damage>0</damage>
         <damageRatio>1</damageRatio>
         <spellArea>0</spellArea>
-        <spellDuration>0</spellDuration>
+        <spellDuration>3000</spellDuration>
       </spell4>
       <playerData>
         <playerName>billy</playerName>
@@ -174,25 +175,25 @@
         <projectileAsset>
         </projectileAsset>
         <autoLevelData>1155131355abc</autoLevelData>
-		<fx_passive_on>billy_passive</fx_passive_on>
-		<fx_q>marceline_beast_crit_hand</fx_q>
-		<fx_q_hit>marceline_beast_crit_hand</fx_q_hit>
-		<fx_w_dash>billy_dash_trail</fx_w_dash>
-		<fx_w_hit>billy_ground_pound</fx_w_hit>
-		<fx_e_once>billy_nothung_skyfall</fx_e_once>
-		<fx_e_multi>billy_nothung_pulse</fx_e_multi>
-		<sfx_q>vo/vo_billy_knock_back</sfx_q>
-		<sfx_w_dash>sfx_billy_jump</sfx_w_dash>
-		<sfx_w_hit>sfx_billy_ground_pound_temp</sfx_w_hit>
-		<sfx_e_once>sfx_billy_nothung_skyfall</sfx_e_once>
-		<sfx_e_multi>sfx_billy_nothung_pulse</sfx_e_multi>
-		<vo_e_summon>vo/vo_billy_nothung</vo_e_summon>
+        <fx_passive_on>billy_passive</fx_passive_on>
+        <fx_q>marceline_beast_crit_hand</fx_q>
+        <fx_q_hit>marceline_beast_crit_hand</fx_q_hit>
+        <fx_w_dash>billy_dash_trail</fx_w_dash>
+        <fx_w_hit>billy_ground_pound</fx_w_hit>
+        <fx_e_once>billy_nothung_skyfall</fx_e_once>
+        <fx_e_multi>billy_nothung_pulse</fx_e_multi>
+        <sfx_q>vo/vo_billy_knock_back</sfx_q>
+        <sfx_w_dash>sfx_billy_jump</sfx_w_dash>
+        <sfx_w_hit>sfx_billy_ground_pound_temp</sfx_w_hit>
+        <sfx_e_once>sfx_billy_nothung_skyfall</sfx_e_once>
+        <sfx_e_multi>sfx_billy_nothung_pulse</sfx_e_multi>
+        <vo_e_summon>vo/vo_billy_nothung</vo_e_summon>
       </scriptData>
       <scripts>
-		<script>actors/champions/billy/billy.lua</script>
+        <script>actors/champions/billy/billy.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -264,7 +265,7 @@
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects />
       <soundObjects>
         <String>sfx_finn_auto_attack_1</String>
@@ -303,10 +304,10 @@
         <String>sfx_finn_walls_drop</String>
       </soundObjects>
       <effectObjects>
-		<String>fx_mark1</String>
-		<String>fx_mark2</String>
-		<String>fx_mark3</String>
-		<String>fx_mark4</String>
+        <String>fx_mark1</String>
+        <String>fx_mark2</String>
+        <String>fx_mark3</String>
+        <String>fx_mark4</String>
         <String>finn_dash_fx</String>
         <String>finn_dash_whirlwind_fx</String>
         <String>finn_shieldShatter</String>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,17 +36,17 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>flame_queen-Flame_Queen_D</String>
-		 </brushMaterialNames>
+        <String>flame_queen-Flame_Queen_D</String>
+      </brushMaterialNames>
       <collisionRadius>0.3</collisionRadius>
       <actorName>flame</actorName>
       <assetBundle>flame_queen</assetBundle>
       <skinType>flame</skinType>
       <skinIcon>flame_outfit_queen</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>RANGED</attackType>
-	  <role1>WIZARD</role1>
-	  <role2>NINJA</role2>
+      <attackType>RANGED</attackType>
+      <role1>WIZARD</role1>
+      <role2>NINJA</role2>
       <actorStats>
         <attackDamage>30</attackDamage>
         <attackDamagePerLevel>4</attackDamagePerLevel>
@@ -59,7 +60,7 @@
         <armor>0</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>350</health>
-        <healthPerLevel>35</healthPerLevel>
+        <healthPerLevel>25</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>0</spellResist>
@@ -75,7 +76,7 @@
         <weaponType>1</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -91,8 +92,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>12000</spellCoolDown>
         <spellGlobalCoolDown>250</spellGlobalCoolDown>
-        <damage>25</damage>
-        <damageRatio>0.7</damageRatio>
+        <damage>10</damage>
+        <damageRatio>0.65</damageRatio>
         <spellArea>1</spellArea>
         <spellDuration>2000</spellDuration>
       </spell1>
@@ -133,7 +134,7 @@
         <damageRatio>0.65</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>5000</spellDuration>
-		<multicast>True</multicast>
+        <multicast>True</multicast>
       </spell3>
       <spell4>
         <spellType>PASSIVE</spellType>
@@ -149,8 +150,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>10000</spellCoolDown>
         <spellGlobalCoolDown>0</spellGlobalCoolDown>
-        <damage>10</damage>
-        <damageRatio>0.35</damageRatio>
+        <damage>5</damage>
+        <damageRatio>0.4</damageRatio>
         <spellArea>0</spellArea>
         <spellDuration>3000</spellDuration>
       </spell4>
@@ -179,14 +180,14 @@
         <autoLevelData>2251212511abc</autoLevelData>
       </scriptData>
       <scripts>
-		<script>actors/champions/flame/flame.lua</script>
+        <script>actors/champions/flame/flame.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
-	  <attackSFX>
+      <attackSFX>
         <subDir>
         </subDir>
         <soundNames>
@@ -196,7 +197,7 @@
           <String>sfx_flame_princess_auto_attack_4</String>
           <String>sfx_flame_princess_auto_attack_5</String>
           <String>sfx_flame_princess_auto_attack_6</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </attackSFX>
@@ -219,7 +220,7 @@
           <String>vo_flame_princess_celebrate_2</String>
           <String>vo_flame_princess_celebrate_3</String>
           <String>vo_flame_princess_celebrate_4</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voCelebrate>
@@ -252,55 +253,55 @@
       <setObject>
       </setObject>
       <actorBundles>
-			<String>flambit</String>
-			<String>flame_ult</String>
+        <String>flambit</String>
+        <String>flame_ult</String>
       </actorBundles>
       <actorObjects>
-			<String>projectile_flame_cone</String>
-	  </actorObjects>
+        <String>projectile_flame_cone</String>
+      </actorObjects>
       <soundObjects>
-			<String>sfx_flame_princess_auto_attack_1</String>
-			<String>sfx_flame_princess_auto_attack_2</String>
-			<String>sfx_flame_princess_auto_attack_3</String>
-			<String>sfx_flame_princess_auto_attack_4</String>
-			<String>sfx_flame_princess_auto_attack_5</String>
-			<String>sfx_flame_princess_auto_attack_6</String>
-			<String>sfx_flame_princess_cone_of_flame</String>
-			<String>sfx_flame_princess_flame_form</String>
-			<String>sfx_flame_princess_passive_ignite</String>
-			<String>sfx_flame_princess_projectile_explode</String>
-			<String>sfx_flame_princess_projectile_throw</String>
-			<String>vo/vo_flame_princess_auto_attack_1</String>
-			<String>vo/vo_flame_princess_auto_attack_2</String>
-			<String>vo/vo_flame_princess_auto_attack_3</String>
-			<String>vo/vo_flame_princess_auto_attack_4</String>
-			<String>vo/vo_flame_princess_auto_attack_5</String>
-			<String>vo/vo_flame_princess_celebrate_1</String>
-			<String>vo/vo_flame_princess_celebrate_2</String>
-			<String>vo/vo_flame_princess_celebrate_3</String>
-			<String>vo/vo_flame_princess_celebrate_4</String>
-			<String>vo/vo_flame_princess_death_1</String>
-			<String>vo/vo_flame_princess_death_2</String>
-			<String>vo/vo_flame_princess_death_3</String>
-			<String>vo/vo_flame_princess_respawn_1</String>
-			<String>vo/vo_flame_princess_respawn_2</String>
-			<String>vo/vo_flame_princess_flame_form</String>
-			<String>vo/vo_flame_princess_ping_1</String>
-			<String>vo/vo_flame_princess_ping_2</String>
-			<String>vo/vo_flame_princess_ping_3</String>
-			<String>vo/vo_flame_princess_ping_4</String>
-			<String>vo/vo_flame_princess_ping_5</String>
-       </soundObjects>
-       <effectObjects>
-	   		<String>flambit_aoe</String>
-	   		<String>flame_princess_cone_of_flames</String>
-	   		<String>flame_princess_passive_flames</String>
-	   		<String>flame_princess_polymorph_fireball</String>
-	   		<String>flame_princess_projectile</String>
-	   		<String>flame_princess_projectile_large_explosion</String>
-	   		<String>flame_princess_ultimate_aoe</String>
-	   		<String>flame_princess_dot</String>
-		</effectObjects>
+        <String>sfx_flame_princess_auto_attack_1</String>
+        <String>sfx_flame_princess_auto_attack_2</String>
+        <String>sfx_flame_princess_auto_attack_3</String>
+        <String>sfx_flame_princess_auto_attack_4</String>
+        <String>sfx_flame_princess_auto_attack_5</String>
+        <String>sfx_flame_princess_auto_attack_6</String>
+        <String>sfx_flame_princess_cone_of_flame</String>
+        <String>sfx_flame_princess_flame_form</String>
+        <String>sfx_flame_princess_passive_ignite</String>
+        <String>sfx_flame_princess_projectile_explode</String>
+        <String>sfx_flame_princess_projectile_throw</String>
+        <String>vo/vo_flame_princess_auto_attack_1</String>
+        <String>vo/vo_flame_princess_auto_attack_2</String>
+        <String>vo/vo_flame_princess_auto_attack_3</String>
+        <String>vo/vo_flame_princess_auto_attack_4</String>
+        <String>vo/vo_flame_princess_auto_attack_5</String>
+        <String>vo/vo_flame_princess_celebrate_1</String>
+        <String>vo/vo_flame_princess_celebrate_2</String>
+        <String>vo/vo_flame_princess_celebrate_3</String>
+        <String>vo/vo_flame_princess_celebrate_4</String>
+        <String>vo/vo_flame_princess_death_1</String>
+        <String>vo/vo_flame_princess_death_2</String>
+        <String>vo/vo_flame_princess_death_3</String>
+        <String>vo/vo_flame_princess_respawn_1</String>
+        <String>vo/vo_flame_princess_respawn_2</String>
+        <String>vo/vo_flame_princess_flame_form</String>
+        <String>vo/vo_flame_princess_ping_1</String>
+        <String>vo/vo_flame_princess_ping_2</String>
+        <String>vo/vo_flame_princess_ping_3</String>
+        <String>vo/vo_flame_princess_ping_4</String>
+        <String>vo/vo_flame_princess_ping_5</String>
+      </soundObjects>
+      <effectObjects>
+        <String>flambit_aoe</String>
+        <String>flame_princess_cone_of_flames</String>
+        <String>flame_princess_passive_flames</String>
+        <String>flame_princess_polymorph_fireball</String>
+        <String>flame_princess_projectile</String>
+        <String>flame_princess_projectile_large_explosion</String>
+        <String>flame_princess_ultimate_aoe</String>
+        <String>flame_princess_dot</String>
+      </effectObjects>
     </ManifestData>
     <MobileAnimator>
       <runSpeedScale>1</runSpeedScale>

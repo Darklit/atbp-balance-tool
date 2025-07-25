@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -34,21 +35,21 @@
   </Colliders>
   <MonoBehaviours>
     <ActorData>
-	  <brushMaterialNames>
-			<String>Finn_Mesh-Finn_Face_D</String>
-			<String>Finn_Mesh-Finn_RobotArm</String>
-      <String>Finn_Mesh-Finn_JakeHat</String>
-			<String>nightSword-nightSword</String>
-	  </brushMaterialNames>
+      <brushMaterialNames>
+        <String>Finn_Mesh-Finn_Face_D</String>
+        <String>Finn_Mesh-Finn_RobotArm</String>
+        <String>Finn_Mesh-Finn_JakeHat</String>
+        <String>nightSword-nightSword</String>
+      </brushMaterialNames>
       <collisionRadius>0.4</collisionRadius>
       <actorName>finn</actorName>
       <assetBundle>finn_jakehat</assetBundle>
       <skinType>finn</skinType>
       <skinIcon>finn_jakehat</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>MELEE</attackType>
-	  <role1>NINJA</role1>
-	  <role2>FIGHTER</role2>
+      <attackType>MELEE</attackType>
+      <role1>NINJA</role1>
+      <role2>FIGHTER</role2>
       <actorStats>
         <attackDamage>50</attackDamage>
         <attackDamagePerLevel>5</attackDamagePerLevel>
@@ -61,8 +62,8 @@
         <armorPenetration>0</armorPenetration>
         <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>500</health>
-        <healthPerLevel>25</healthPerLevel>
+        <health>425</health>
+        <healthPerLevel>35</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
@@ -78,7 +79,7 @@
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -94,7 +95,7 @@
         <castDelay>0</castDelay>
         <spellCoolDown>10000</spellCoolDown>
         <spellGlobalCoolDown>0</spellGlobalCoolDown>
-        <damage>50</damage>
+        <damage>20</damage>
         <damageRatio>0.6</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>3000</spellDuration>
@@ -113,8 +114,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>12000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
-        <damage>75</damage>
-        <damageRatio>0.2</damageRatio>
+        <damage>20</damage>
+        <damageRatio>0.6</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>1500</spellDuration>
       </spell2>
@@ -130,10 +131,10 @@
         <spellRange>3.675</spellRange>
         <castType>INSTANT</castType>
         <castDelay>500</castDelay>
-        <spellCoolDown>40000</spellCoolDown>
+        <spellCoolDown>45000</spellCoolDown>
         <spellGlobalCoolDown>1000</spellGlobalCoolDown>
         <damage>65</damage>
-        <damageRatio>0.2</damageRatio>
+        <damageRatio>0.5</damageRatio>
         <spellArea>0.5</spellArea>
         <spellDuration>5000</spellDuration>
       </spell3>
@@ -180,33 +181,29 @@
         <projectileAsset>
         </projectileAsset>
         <autoLevelData>1513121453abc</autoLevelData>
-
-		<fx_shield_shatter>finn_shieldShatter</fx_shield_shatter>
-		<fx_shield_shimmer>finn_shieldShimmer</fx_shield_shimmer>
-		<sfx_shield>sfx_finn_shield</sfx_shield>
-		<sfx_shield_shatter>sfx_finn_shield_shatter</sfx_shield_shatter>
-
-		<fx_dash>finn_dash_fx</fx_dash>
-		<sfx_dash>sfx_finn_dash_attack</sfx_dash>
-
-		<fx_ult_swords>finn_wall_corner_swords</fx_ult_swords>
-		<fx_ult_wall_north>finn_wall_north</fx_ult_wall_north>
-		<fx_ult_wall_south>finn_wall_south</fx_ult_wall_south>
-		<fx_ult_wall_east>finn_wall_east</fx_ult_wall_east>
-		<fx_ult_wall_west>finn_wall_west</fx_ult_wall_west>
-		<fx_ult_wall_north_destroy>finn_wall_north_destroy</fx_ult_wall_north_destroy>
-		<fx_ult_wall_south_destroy>finn_wall_south_destroy</fx_ult_wall_south_destroy>
-		<fx_ult_wall_east_destroy>finn_wall_east_destroy</fx_ult_wall_east_destroy>
-		<fx_ult_wall_west_destroy>finn_wall_west_destroy</fx_ult_wall_west_destroy>
-		<sfx_ult_wall_drop>sfx_finn_walls_drop</sfx_ult_wall_drop>
-		<sfx_ult_wall_destroyed>finn_wall_destroyed</sfx_ult_wall_destroyed>
-
+        <fx_shield_shatter>finn_shieldShatter</fx_shield_shatter>
+        <fx_shield_shimmer>finn_shieldShimmer</fx_shield_shimmer>
+        <sfx_shield>sfx_finn_shield</sfx_shield>
+        <sfx_shield_shatter>sfx_finn_shield_shatter</sfx_shield_shatter>
+        <fx_dash>finn_dash_fx</fx_dash>
+        <sfx_dash>sfx_finn_dash_attack</sfx_dash>
+        <fx_ult_swords>finn_wall_corner_swords</fx_ult_swords>
+        <fx_ult_wall_north>finn_wall_north</fx_ult_wall_north>
+        <fx_ult_wall_south>finn_wall_south</fx_ult_wall_south>
+        <fx_ult_wall_east>finn_wall_east</fx_ult_wall_east>
+        <fx_ult_wall_west>finn_wall_west</fx_ult_wall_west>
+        <fx_ult_wall_north_destroy>finn_wall_north_destroy</fx_ult_wall_north_destroy>
+        <fx_ult_wall_south_destroy>finn_wall_south_destroy</fx_ult_wall_south_destroy>
+        <fx_ult_wall_east_destroy>finn_wall_east_destroy</fx_ult_wall_east_destroy>
+        <fx_ult_wall_west_destroy>finn_wall_west_destroy</fx_ult_wall_west_destroy>
+        <sfx_ult_wall_drop>sfx_finn_walls_drop</sfx_ult_wall_drop>
+        <sfx_ult_wall_destroyed>finn_wall_destroyed</sfx_ult_wall_destroyed>
       </scriptData>
       <scripts>
-		<script>actors/champions/finn/finn.lua</script>
+        <script>actors/champions/finn/finn.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -278,7 +275,7 @@
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects />
       <soundObjects>
         <String>sfx_finn_auto_attack_1</String>
@@ -317,10 +314,10 @@
         <String>sfx_finn_walls_drop</String>
       </soundObjects>
       <effectObjects>
-		<String>fx_mark1</String>
-		<String>fx_mark2</String>
-		<String>fx_mark3</String>
-		<String>fx_mark4</String>
+        <String>fx_mark1</String>
+        <String>fx_mark2</String>
+        <String>fx_mark3</String>
+        <String>fx_mark4</String>
         <String>finn_dash_fx</String>
         <String>finn_dash_whirlwind_fx</String>
         <String>finn_shieldShatter</String>

@@ -56,7 +56,7 @@
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>0</lifeSteal>
         <armorPenetration>0</armorPenetration>
-        <armor>0</armor>
+        <armor>10</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>350</health>
         <healthPerLevel>25</healthPerLevel>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,21 +36,21 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>Gunter_Mesh-gunter_D</String>
-		<String>Sphere001-02_Default</String>
-		<String>Sphere001-03_Default</String>
-		<String>Sphere002-02_Default</String>
-		<String>Sphere002-03_Default</String>
-	  </brushMaterialNames>
+        <String>Gunter_Mesh-gunter_D</String>
+        <String>Sphere001-02_Default</String>
+        <String>Sphere001-03_Default</String>
+        <String>Sphere002-02_Default</String>
+        <String>Sphere002-03_Default</String>
+      </brushMaterialNames>
       <collisionRadius>0.4</collisionRadius>
       <actorName>gunter</actorName>
       <assetBundle>gunter_guntelina</assetBundle>
-	  <skinType>gunter</skinType>
+      <skinType>gunter</skinType>
       <skinIcon>gunter_guntelina</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>RANGED</attackType>
-	  <role1>NINJA</role1>
-	  <role2>NINJA</role2>
+      <attackType>RANGED</attackType>
+      <role1>NINJA</role1>
+      <role2>NINJA</role2>
       <actorStats>
         <attackDamage>50</attackDamage>
         <attackDamagePerLevel>4</attackDamagePerLevel>
@@ -79,7 +80,7 @@
         <weaponType>1</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -95,8 +96,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>12000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
-        <damage>50</damage>
-        <damageRatio>0.5</damageRatio>
+        <damage>20</damage>
+        <damageRatio>0.65</damageRatio>
         <spellArea>1</spellArea>
         <spellDuration>1500</spellDuration>
       </spell1>
@@ -114,8 +115,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>7500</spellCoolDown>
         <spellGlobalCoolDown>250</spellGlobalCoolDown>
-        <damage>50</damage>
-        <damageRatio>0.6</damageRatio>
+        <damage>20</damage>
+        <damageRatio>0.75</damageRatio>
         <spellArea>1</spellArea>
         <spellDuration>1000</spellDuration>
       </spell2>
@@ -185,10 +186,10 @@
         <autoLevelData>1251212512abc</autoLevelData>
       </scriptData>
       <scripts>
-		<script>actors/champions/gunter/gunter.lua</script>
+        <script>actors/champions/gunter/gunter.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -224,7 +225,7 @@
           <String>vo_gunter_celebrate_2</String>
           <String>vo_gunter_celebrate_3</String>
           <String>vo_gunter_celebrate_4</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voCelebrate>
@@ -259,9 +260,9 @@
     <ManifestData>
       <setObject />
       <actorBundles />
-	  <actorObjects>
-		<String>projectile_gunter_bottle</String>
-	  </actorObjects>
+      <actorObjects>
+        <String>projectile_gunter_bottle</String>
+      </actorObjects>
       <soundObjects>
         <String>sfx_gunter_auto_attack_1</String>
         <String>sfx_gunter_auto_attack_2</String>

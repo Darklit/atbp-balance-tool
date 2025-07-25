@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,17 +36,17 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>Ice King Young-Ice_King_Young_D</String>
-	  </brushMaterialNames>
+        <String>Ice King Young-Ice_King_Young_D</String>
+      </brushMaterialNames>
       <collisionRadius>0.5</collisionRadius>
       <actorName>iceking</actorName>
       <assetBundle>iceking_young</assetBundle>
       <skinType>iceking</skinType>
       <skinIcon>iceking_young</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>RANGED</attackType>
-	  <role1>WIZARD</role1>
-	  <role2>TRAPPER</role2>
+      <attackType>RANGED</attackType>
+      <role1>WIZARD</role1>
+      <role2>TRAPPER</role2>
       <actorStats>
         <attackDamage>40</attackDamage>
         <attackDamagePerLevel>2</attackDamagePerLevel>
@@ -59,7 +60,7 @@
         <armor>0</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>350</health>
-        <healthPerLevel>35</healthPerLevel>
+        <healthPerLevel>25</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
@@ -75,7 +76,7 @@
         <weaponType>1</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -176,29 +177,29 @@
         <baseAssetBundle>iceking_young</baseAssetBundle>
         <projectileAsset>iceKing_projectile</projectileAsset>
         <autoLevelData>2251252435abc</autoLevelData>
-		<fx_frost_shield>ice_king_frost_shield</fx_frost_shield>
-		<fx_spell_hand>ice_king_spell_casting_hand</fx_spell_hand>
-		<fx_hailstorm>AoE_iceking_snowballs</fx_hailstorm>
-		<fx_ultimate>iceKing_freezeGround</fx_ultimate>
-		<fx_whirlwind>ice_king_whirlwind</fx_whirlwind>
-		<sfx_freeze>sfx_ice_king_auto_attack_4</sfx_freeze>
-		<sfx_hailstorm>sfx_ice_king_hailstorm</sfx_hailstorm>
-		<sfx_ultimate>sfx_ice_king_ultimate</sfx_ultimate>
-		<proj_deepfreeze>projectile_iceking_deepfreeze</proj_deepfreeze>
-		<vo_freeze>vo/vo_ice_king_young_freeze</vo_freeze>
-		<vo_hailstorm>vo/vo_ice_king_young_hailstorm</vo_hailstorm>
-		<vo_ultimate>vo/vo_ice_king_young_ultimate</vo_ultimate>
-		<bundle_ultimate>iceking2_young2</bundle_ultimate>
+        <fx_frost_shield>ice_king_frost_shield</fx_frost_shield>
+        <fx_spell_hand>ice_king_spell_casting_hand</fx_spell_hand>
+        <fx_hailstorm>AoE_iceking_snowballs</fx_hailstorm>
+        <fx_ultimate>iceKing_freezeGround</fx_ultimate>
+        <fx_whirlwind>ice_king_whirlwind</fx_whirlwind>
+        <sfx_freeze>sfx_ice_king_auto_attack_4</sfx_freeze>
+        <sfx_hailstorm>sfx_ice_king_hailstorm</sfx_hailstorm>
+        <sfx_ultimate>sfx_ice_king_ultimate</sfx_ultimate>
+        <proj_deepfreeze>projectile_iceking_deepfreeze</proj_deepfreeze>
+        <vo_freeze>vo/vo_ice_king_young_freeze</vo_freeze>
+        <vo_hailstorm>vo/vo_ice_king_young_hailstorm</vo_hailstorm>
+        <vo_ultimate>vo/vo_ice_king_young_ultimate</vo_ultimate>
+        <bundle_ultimate>iceking2_young2</bundle_ultimate>
       </scriptData>
       <scripts>
-	    <script>actors/champions/iceking/iceking.lua</script>
+        <script>actors/champions/iceking/iceking.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
-	  <attackSFX>
+      <attackSFX>
         <subDir>
         </subDir>
         <soundNames>
@@ -207,7 +208,7 @@
           <String>sfx_ice_king_auto_attack_3</String>
           <String>sfx_ice_king_auto_attack_4</String>
           <String>sfx_ice_king_auto_attack_5</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </attackSFX>
@@ -230,18 +231,18 @@
           <String>vo_ice_king_young_celebrate_2</String>
           <String>vo_ice_king_young_celebrate_3</String>
           <String>vo_ice_king_young_celebrate_4</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voCelebrate>
       <voDeath>
         <subDir>vo</subDir>
         <soundNames>
-			<String>vo_ice_king_young_death_1</String>
-			<String>vo_ice_king_young_death_2</String>
-			<String>vo_ice_king_young_death_3</String>
-			<String>vo_ice_king_young_death_4</String>
-		</soundNames>
+          <String>vo_ice_king_young_death_1</String>
+          <String>vo_ice_king_young_death_2</String>
+          <String>vo_ice_king_young_death_3</String>
+          <String>vo_ice_king_young_death_4</String>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voDeath>
@@ -252,7 +253,7 @@
           <String>vo_ice_king_young_respawn_2</String>
           <String>vo_ice_king_young_respawn_3</String>
           <String>vo_ice_king_young_respawn_4</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voRespawn>
@@ -265,58 +266,58 @@
     <ManifestData>
       <setObject />
       <actorBundles>
-			<String>iceking_young</String>
-			<String>iceking_young2</String>
+        <String>iceking_young</String>
+        <String>iceking_young2</String>
       </actorBundles>
       <actorObjects>
-			<String>projectile_iceking_deepfreeze</String>
-	  </actorObjects>
+        <String>projectile_iceking_deepfreeze</String>
+      </actorObjects>
       <soundObjects>
-			<String>sfx_ice_king_auto_attack_1</String>
-			<String>sfx_ice_king_auto_attack_2</String>
-			<String>sfx_ice_king_auto_attack_3</String>
-			<String>sfx_ice_king_auto_attack_4</String>
-			<String>sfx_ice_king_auto_attack_5</String>
-			<String>vo/vo_ice_king_young_auto_attack_1</String>
-			<String>vo/vo_ice_king_young_auto_attack_2</String>
-			<String>vo/vo_ice_king_young_auto_attack_3</String>
-			<String>vo/vo_ice_king_young_auto_attack_4</String>
-			<String>vo/vo_ice_king_young_auto_attack_5</String>
-			<String>vo/vo_ice_king_young_celebrate_1</String>
-			<String>vo/vo_ice_king_young_celebrate_2</String>
-			<String>vo/vo_ice_king_young_celebrate_3</String>
-			<String>vo/vo_ice_king_young_celebrate_4</String>
-			<String>vo/vo_ice_king_young_death_1</String>
-			<String>vo/vo_ice_king_young_death_2</String>
-			<String>vo/vo_ice_king_young_death_3</String>
-			<String>vo/vo_ice_king_young_death_4</String>
-			<String>vo/vo_ice_king_young_respawn_1</String>
-			<String>vo/vo_ice_king_young_respawn_2</String>
-			<String>vo/vo_ice_king_young_respawn_3</String>
-			<String>vo/vo_ice_king_young_respawn_4</String>
-			<String>vo/vo_ice_king_young_ping_1</String>
-			<String>vo/vo_ice_king_young_ping_2</String>
-			<String>vo/vo_ice_king_young_ping_3</String>
-			<String>vo/vo_ice_king_young_ping_4</String>
-			<String>vo/vo_ice_king_young_ping_5</String>
-			<String>sfx_ice_king_freeze</String>
-			<String>sfx_ice_king_hailstorm</String>
-			<String>sfx_ice_king_ultimate</String>
-			<String>vo/vo_ice_king_young_freeze</String>
-			<String>vo/vo_ice_king_young_hailstorm</String>
-			<String>vo/vo_ice_king_young_ultimate</String>
-       </soundObjects>
-       <effectObjects>
-			<String>ice_king_frost_shield</String>
-			<String>ice_king_spell_casting_hand</String>
-			<String>ice_king_whirlwind</String>
-			<String>iceKing_freezeGround</String>
-			<String>iceKing_projectile</String>
-			<String>iceKing_snare</String>
-			<String>iceKing_snare_projectile</String>
-			<String>iceKing_spellCasting_hand</String>
-			<String>AoE_iceking_snowballs</String>
-       </effectObjects>
+        <String>sfx_ice_king_auto_attack_1</String>
+        <String>sfx_ice_king_auto_attack_2</String>
+        <String>sfx_ice_king_auto_attack_3</String>
+        <String>sfx_ice_king_auto_attack_4</String>
+        <String>sfx_ice_king_auto_attack_5</String>
+        <String>vo/vo_ice_king_young_auto_attack_1</String>
+        <String>vo/vo_ice_king_young_auto_attack_2</String>
+        <String>vo/vo_ice_king_young_auto_attack_3</String>
+        <String>vo/vo_ice_king_young_auto_attack_4</String>
+        <String>vo/vo_ice_king_young_auto_attack_5</String>
+        <String>vo/vo_ice_king_young_celebrate_1</String>
+        <String>vo/vo_ice_king_young_celebrate_2</String>
+        <String>vo/vo_ice_king_young_celebrate_3</String>
+        <String>vo/vo_ice_king_young_celebrate_4</String>
+        <String>vo/vo_ice_king_young_death_1</String>
+        <String>vo/vo_ice_king_young_death_2</String>
+        <String>vo/vo_ice_king_young_death_3</String>
+        <String>vo/vo_ice_king_young_death_4</String>
+        <String>vo/vo_ice_king_young_respawn_1</String>
+        <String>vo/vo_ice_king_young_respawn_2</String>
+        <String>vo/vo_ice_king_young_respawn_3</String>
+        <String>vo/vo_ice_king_young_respawn_4</String>
+        <String>vo/vo_ice_king_young_ping_1</String>
+        <String>vo/vo_ice_king_young_ping_2</String>
+        <String>vo/vo_ice_king_young_ping_3</String>
+        <String>vo/vo_ice_king_young_ping_4</String>
+        <String>vo/vo_ice_king_young_ping_5</String>
+        <String>sfx_ice_king_freeze</String>
+        <String>sfx_ice_king_hailstorm</String>
+        <String>sfx_ice_king_ultimate</String>
+        <String>vo/vo_ice_king_young_freeze</String>
+        <String>vo/vo_ice_king_young_hailstorm</String>
+        <String>vo/vo_ice_king_young_ultimate</String>
+      </soundObjects>
+      <effectObjects>
+        <String>ice_king_frost_shield</String>
+        <String>ice_king_spell_casting_hand</String>
+        <String>ice_king_whirlwind</String>
+        <String>iceKing_freezeGround</String>
+        <String>iceKing_projectile</String>
+        <String>iceKing_snare</String>
+        <String>iceKing_snare_projectile</String>
+        <String>iceKing_spellCasting_hand</String>
+        <String>AoE_iceking_snowballs</String>
+      </effectObjects>
     </ManifestData>
     <MobileAnimator>
       <runSpeedScale>1</runSpeedScale>

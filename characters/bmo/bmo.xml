@@ -56,13 +56,13 @@
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>0</lifeSteal>
         <armorPenetration>0</armorPenetration>
-        <armor>5</armor>
+        <armor>15</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>375</health>
         <healthPerLevel>32</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
-        <spellResist>0</spellResist>
+        <spellResist>10</spellResist>
         <spellResistPerLevel>1</spellResistPerLevel>
         <spellDamage>55</spellDamage>
         <spellDamagePerLevel>3</spellDamagePerLevel>

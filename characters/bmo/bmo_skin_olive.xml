@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,17 +36,17 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>BMO001-BMO_D</String>
-	  </brushMaterialNames>
+        <String>BMO001-BMO_D</String>
+      </brushMaterialNames>
       <collisionRadius>0.3</collisionRadius>
       <actorName>bmo</actorName>
       <assetBundle>bmo_olive</assetBundle>
-	  <skinType>bmo</skinType>
+      <skinType>bmo</skinType>
       <skinIcon>bmo_olive</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>RANGED</attackType>
-	  <role1>WIZARD</role1>
-	  <role2>JINXER</role2>
+      <attackType>RANGED</attackType>
+      <role1>WIZARD</role1>
+      <role2>JINXER</role2>
       <actorStats>
         <attackDamage>30</attackDamage>
         <attackDamagePerLevel>3</attackDamagePerLevel>
@@ -75,7 +76,7 @@
         <weaponType>1</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -114,7 +115,7 @@
         <damageRatio>0.4</damageRatio>
         <spellArea>4</spellArea>
         <spellDuration>3000</spellDuration>
-		<multicast>True</multicast>
+        <multicast>True</multicast>
       </spell2>
       <spell3>
         <spellType>SPELL3</spellType>
@@ -177,29 +178,29 @@
         <baseAssetBundle>bmo_olive</baseAssetBundle>
         <projectileAsset>bmo_projectile</projectileAsset>
         <autoLevelData>2251254211abc</autoLevelData>
-		<fx_camera>bmo_camera</fx_camera>
-		<fx_remote_spin>bmo_remote_spin</fx_remote_spin>
-		<fx_pixels_aoe>bmo_pixels_aoe</fx_pixels_aoe>
-		<fx_pixels_aoe_explode>bmo_pixels_aoe_explode</fx_pixels_aoe_explode>
-		<fx_passive>bmo_passive</fx_passive>
-		<fx_passive_node>bmo_passive_node</fx_passive_node>
-		<sfx_camera>sfx_bmo_camera</sfx_camera>
-		<sfx_pixels_start>sfx_bmo_pixels_start</sfx_pixels_start>
-		<sfx_pixels_shoot1>sfx_bmo_pixels_shoot1</sfx_pixels_shoot1>
-		<sfx_pixels_explode>sfx_bmo_pixels_explode</sfx_pixels_explode>
-		<sfx_ultimate>sfx_bmo_ultimate</sfx_ultimate>
-		<sfx_passive>sfx_bmo_passive</sfx_passive>
-		<proj_bee>projectile_bmo_bee</proj_bee>
-		<vo_grunt>vo/vo_bmo_grunt</vo_grunt>
-		<vo_yay>vo/vo_bmo_yay</vo_yay>
-		<vo_ultimate>vo/vo_bmo_ultimate</vo_ultimate>
-		<vo_passive_on>vo/vo_bmo_passive_on</vo_passive_on>
+        <fx_camera>bmo_camera</fx_camera>
+        <fx_remote_spin>bmo_remote_spin</fx_remote_spin>
+        <fx_pixels_aoe>bmo_pixels_aoe</fx_pixels_aoe>
+        <fx_pixels_aoe_explode>bmo_pixels_aoe_explode</fx_pixels_aoe_explode>
+        <fx_passive>bmo_passive</fx_passive>
+        <fx_passive_node>bmo_passive_node</fx_passive_node>
+        <sfx_camera>sfx_bmo_camera</sfx_camera>
+        <sfx_pixels_start>sfx_bmo_pixels_start</sfx_pixels_start>
+        <sfx_pixels_shoot1>sfx_bmo_pixels_shoot1</sfx_pixels_shoot1>
+        <sfx_pixels_explode>sfx_bmo_pixels_explode</sfx_pixels_explode>
+        <sfx_ultimate>sfx_bmo_ultimate</sfx_ultimate>
+        <sfx_passive>sfx_bmo_passive</sfx_passive>
+        <proj_bee>projectile_bmo_bee</proj_bee>
+        <vo_grunt>vo/vo_bmo_grunt</vo_grunt>
+        <vo_yay>vo/vo_bmo_yay</vo_yay>
+        <vo_ultimate>vo/vo_bmo_ultimate</vo_ultimate>
+        <vo_passive_on>vo/vo_bmo_passive_on</vo_passive_on>
       </scriptData>
       <scripts>
-	 	<script>actors/champions/bmo/bmo.lua</script>
+        <script>actors/champions/bmo/bmo.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -213,7 +214,7 @@
           <String>sfx_bmo_auto_attack_4</String>
           <String>sfx_bmo_auto_attack_5</String>
           <String>sfx_bmo_auto_attack_6</String>
-  	    </soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </attackSFX>
@@ -251,7 +252,7 @@
           <String>vo_bmo_death_4</String>
           <String>vo_bmo_death_5</String>
           <String>vo_bmo_death_6</String>
-		</soundNames>
+        </soundNames>
         <playChance>1</playChance>
         <cooldown>0</cooldown>
       </voDeath>
@@ -263,7 +264,7 @@
           <String>vo_bmo_respawn_3</String>
           <String>vo_bmo_respawn_4</String>
           <String>vo_bmo_respawn_5</String>
-		</soundNames>
+        </soundNames>
         <playChance>0</playChance>
         <cooldown>0</cooldown>
       </voRespawn>
@@ -272,68 +273,67 @@
       <voPingHelp>vo/vo_bmo_ping_3</voPingHelp>
       <voPingMIA>vo/vo_bmo_ping_4</voPingMIA>
       <voPingOMW>vo/vo_bmo_ping_5</voPingOMW>
-
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects>
-			<String>projectile_bmo_bee</String>
-	  </actorObjects>
+        <String>projectile_bmo_bee</String>
+      </actorObjects>
       <soundObjects>
-			<String>akubat_projectileHit1</String>
-			<String>sfx_bmo_auto_attack_1</String>
-			<String>sfx_bmo_auto_attack_2</String>
-			<String>sfx_bmo_auto_attack_3</String>
-			<String>sfx_bmo_auto_attack_4</String>
-			<String>sfx_bmo_auto_attack_5</String>
-			<String>sfx_bmo_auto_attack_6</String>
-			<String>sfx_bmo_camera</String>
-			<String>sfx_bmo_passive</String>
-			<String>sfx_bmo_pixels_explode</String>
-			<String>sfx_bmo_pixels_shoot</String>
-			<String>sfx_bmo_pixels_shoot1</String>
-			<String>sfx_bmo_pixels_start</String>
-			<String>sfx_bmo_ultimate</String>
-			<String>vo/vo_bmo_auto_attack_1</String>
-			<String>vo/vo_bmo_auto_attack_2</String>
-			<String>vo/vo_bmo_auto_attack_3</String>
-			<String>vo/vo_bmo_auto_attack_4</String>
-			<String>vo/vo_bmo_auto_attack_5</String>
-			<String>vo/vo_bmo_death_1</String>
-			<String>vo/vo_bmo_death_2</String>
-			<String>vo/vo_bmo_death_3</String>
-			<String>vo/vo_bmo_death_4</String>
-			<String>vo/vo_bmo_death_5</String>
-			<String>vo/vo_bmo_death_6</String>
-			<String>vo/vo_bmo_celebrate_1</String>
-		  	<String>vo/vo_bmo_celebrate_2</String>
-		  	<String>vo/vo_bmo_celebrate_3</String>
-          	<String>vo/vo_bmo_celebrate_4</String>
-          	<String>vo/vo_bmo_celebrate_5</String>
-          	<String>vo/vo_bmo_respawn_1</String>
-          	<String>vo/vo_bmo_respawn_2</String>
-          	<String>vo/vo_bmo_respawn_3</String>
-          	<String>vo/vo_bmo_respawn_4</String>
-          	<String>vo/vo_bmo_respawn_5</String>
-          	<String>vo/vo_bmo_ping_1</String>
-        	<String>vo/vo_bmo_ping_2</String>
-        	<String>vo/vo_bmo_ping_3</String>
-        	<String>vo/vo_bmo_ping_4</String>
-        	<String>vo/vo_bmo_ping_5</String>
-			<String>vo/vo_bmo_passive_on</String>
-			<String>vo/vo_bmo_ultimate</String>
-			<String>vo/vo_bmo_yay</String>
-			<String>vo/vo_bmo_grunt</String>
-		</soundObjects>
-       <effectObjects>
-			<String>bmo_camera</String>
-			<String>bmo_passive</String>
-			<String>bmo_passive_node</String>
-			<String>fx_bmo_remote</String>
-			<String>bmo_pixels_aoe</String>
-			<String>bmo_pixels_aoe_explode</String>
-       </effectObjects>
+        <String>akubat_projectileHit1</String>
+        <String>sfx_bmo_auto_attack_1</String>
+        <String>sfx_bmo_auto_attack_2</String>
+        <String>sfx_bmo_auto_attack_3</String>
+        <String>sfx_bmo_auto_attack_4</String>
+        <String>sfx_bmo_auto_attack_5</String>
+        <String>sfx_bmo_auto_attack_6</String>
+        <String>sfx_bmo_camera</String>
+        <String>sfx_bmo_passive</String>
+        <String>sfx_bmo_pixels_explode</String>
+        <String>sfx_bmo_pixels_shoot</String>
+        <String>sfx_bmo_pixels_shoot1</String>
+        <String>sfx_bmo_pixels_start</String>
+        <String>sfx_bmo_ultimate</String>
+        <String>vo/vo_bmo_auto_attack_1</String>
+        <String>vo/vo_bmo_auto_attack_2</String>
+        <String>vo/vo_bmo_auto_attack_3</String>
+        <String>vo/vo_bmo_auto_attack_4</String>
+        <String>vo/vo_bmo_auto_attack_5</String>
+        <String>vo/vo_bmo_death_1</String>
+        <String>vo/vo_bmo_death_2</String>
+        <String>vo/vo_bmo_death_3</String>
+        <String>vo/vo_bmo_death_4</String>
+        <String>vo/vo_bmo_death_5</String>
+        <String>vo/vo_bmo_death_6</String>
+        <String>vo/vo_bmo_celebrate_1</String>
+        <String>vo/vo_bmo_celebrate_2</String>
+        <String>vo/vo_bmo_celebrate_3</String>
+        <String>vo/vo_bmo_celebrate_4</String>
+        <String>vo/vo_bmo_celebrate_5</String>
+        <String>vo/vo_bmo_respawn_1</String>
+        <String>vo/vo_bmo_respawn_2</String>
+        <String>vo/vo_bmo_respawn_3</String>
+        <String>vo/vo_bmo_respawn_4</String>
+        <String>vo/vo_bmo_respawn_5</String>
+        <String>vo/vo_bmo_ping_1</String>
+        <String>vo/vo_bmo_ping_2</String>
+        <String>vo/vo_bmo_ping_3</String>
+        <String>vo/vo_bmo_ping_4</String>
+        <String>vo/vo_bmo_ping_5</String>
+        <String>vo/vo_bmo_passive_on</String>
+        <String>vo/vo_bmo_ultimate</String>
+        <String>vo/vo_bmo_yay</String>
+        <String>vo/vo_bmo_grunt</String>
+      </soundObjects>
+      <effectObjects>
+        <String>bmo_camera</String>
+        <String>bmo_passive</String>
+        <String>bmo_passive_node</String>
+        <String>fx_bmo_remote</String>
+        <String>bmo_pixels_aoe</String>
+        <String>bmo_pixels_aoe_explode</String>
+      </effectObjects>
     </ManifestData>
     <MobileAnimator>
       <runSpeedScale>1</runSpeedScale>

@@ -57,13 +57,13 @@
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>0</lifeSteal>
         <armorPenetration>0</armorPenetration>
-        <armor>5</armor>
+        <armor>13</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>420</health>
         <healthPerLevel>30</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
-        <spellResist>5</spellResist>
+        <spellResist>13</spellResist>
         <spellResistPerLevel>1</spellResistPerLevel>
         <spellDamage>30</spellDamage>
         <spellDamagePerLevel>3</spellDamagePerLevel>
@@ -109,7 +109,7 @@
         <spellRange>6.5</spellRange>
         <castType>AIMED</castType>
         <castDelay>250</castDelay>
-        <spellCoolDown>17000</spellCoolDown>
+        <spellCoolDown>15000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
         <damage>10</damage>
         <damageRatio>0.3</damageRatio>
@@ -128,10 +128,10 @@
         <spellRange>5.5</spellRange>
         <castType>TARGETED_INSTANT</castType>
         <castDelay>0</castDelay>
-        <spellCoolDown>55000</spellCoolDown>
+        <spellCoolDown>60000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
         <damage>50</damage>
-        <damageRatio>0.35</damageRatio>
+        <damageRatio>0.45</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>5500</spellDuration>
       </spell3>

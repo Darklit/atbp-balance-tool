@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,17 +36,17 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>Young_Billy-Billy_Young_D</String>
-	  </brushMaterialNames>
+        <String>Young_Billy-Billy_Young_D</String>
+      </brushMaterialNames>
       <collisionRadius>0.5</collisionRadius>
       <actorName>billy</actorName>
       <assetBundle>billy_young</assetBundle>
       <skinType>billy</skinType>
       <skinIcon>billy_young</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>MELEE</attackType>
-	  <role1>FIGHTER</role1>
-	  <role2>TANK</role2>
+      <attackType>MELEE</attackType>
+      <role1>FIGHTER</role1>
+      <role2>TANK</role2>
       <actorStats>
         <attackDamage>50</attackDamage>
         <attackDamagePerLevel>5</attackDamagePerLevel>
@@ -58,8 +59,8 @@
         <armorPenetration>0</armorPenetration>
         <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>500</health>
-        <healthPerLevel>50</healthPerLevel>
+        <health>420</health>
+        <healthPerLevel>30</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
@@ -75,7 +76,7 @@
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -110,8 +111,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>14000</spellCoolDown>
         <spellGlobalCoolDown>250</spellGlobalCoolDown>
-        <damage>60</damage>
-        <damageRatio>0.4</damageRatio>
+        <damage>30</damage>
+        <damageRatio>0.45</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>250</spellDuration>
       </spell2>
@@ -127,9 +128,9 @@
         <spellRange>5.5</spellRange>
         <castType>AIMED</castType>
         <castDelay>750</castDelay>
-        <spellCoolDown>55000</spellCoolDown>
+        <spellCoolDown>60000</spellCoolDown>
         <spellGlobalCoolDown>750</spellGlobalCoolDown>
-        <damage>175</damage>
+        <damage>155</damage>
         <damageRatio>0.6</damageRatio>
         <spellArea>2.25</spellArea>
         <spellDuration>4500</spellDuration>
@@ -177,25 +178,25 @@
         <projectileAsset>
         </projectileAsset>
         <autoLevelData>1155131355abc</autoLevelData>
-		<fx_passive_on>billy_passive</fx_passive_on>
-		<fx_q>billy_crit_hands</fx_q>
-		<fx_q_hit>billy_crit_hit</fx_q_hit>
-		<fx_w_dash>billy_dash_trail</fx_w_dash>
-		<fx_w_hit>billy_ground_pound</fx_w_hit>
-		<fx_e_once>billy_nothung_skyfall</fx_e_once>
-		<fx_e_multi>billy_nothung_pulse</fx_e_multi>
-		<sfx_q>vo/vo_billy_knock_back</sfx_q>
-		<sfx_w_dash>sfx_billy_jump</sfx_w_dash>
-		<sfx_w_hit>sfx_billy_ground_pound_temp</sfx_w_hit>
-		<sfx_e_once>sfx_billy_nothung_skyfall</sfx_e_once>
-		<sfx_e_multi>sfx_billy_nothung_pulse</sfx_e_multi>
-		<vo_e_summon>vo/vo_billy_nothung</vo_e_summon>
+        <fx_passive_on>billy_passive</fx_passive_on>
+        <fx_q>billy_crit_hands</fx_q>
+        <fx_q_hit>billy_crit_hit</fx_q_hit>
+        <fx_w_dash>billy_dash_trail</fx_w_dash>
+        <fx_w_hit>billy_ground_pound</fx_w_hit>
+        <fx_e_once>billy_nothung_skyfall</fx_e_once>
+        <fx_e_multi>billy_nothung_pulse</fx_e_multi>
+        <sfx_q>vo/vo_billy_knock_back</sfx_q>
+        <sfx_w_dash>sfx_billy_jump</sfx_w_dash>
+        <sfx_w_hit>sfx_billy_ground_pound_temp</sfx_w_hit>
+        <sfx_e_once>sfx_billy_nothung_skyfall</sfx_e_once>
+        <sfx_e_multi>sfx_billy_nothung_pulse</sfx_e_multi>
+        <vo_e_summon>vo/vo_billy_nothung</vo_e_summon>
       </scriptData>
       <scripts>
-		<script>actors/champions/billy/billy.lua</script>
+        <script>actors/champions/billy/billy.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -260,7 +261,7 @@
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects />
       <soundObjects>
         <String>sfx_billy_auto_attack_1</String>
@@ -285,10 +286,10 @@
         <String>vo/vo_billy_respawn_3</String>
       </soundObjects>
       <effectObjects>
-		<String>billy_crit_hands</String>
-		<String>billy_crit_hit</String>
-		<String>billy_dash_trail</String>
-		<String>billy_ground_pound</String>
+        <String>billy_crit_hands</String>
+        <String>billy_crit_hit</String>
+        <String>billy_dash_trail</String>
+        <String>billy_ground_pound</String>
         <String>billy_nothung_pulse</String>
         <String>billy_nothung_skyfall</String>
         <String>billy_passive</String>

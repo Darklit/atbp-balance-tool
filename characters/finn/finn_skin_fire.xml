@@ -44,7 +44,7 @@
       <actorName>finn</actorName>
       <assetBundle>finn</assetBundle>
       <skinType>finn</skinType>
-      <skinIcon>finn</skinIcon>
+      <skinIcon>finn_outfit_fire</skinIcon>
       <actorType>CHAMPION</actorType>
 	  <attackType>MELEE</attackType>
 	  <role1>NINJA</role1>
@@ -59,13 +59,13 @@
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>0</lifeSteal>
         <armorPenetration>0</armorPenetration>
-        <armor>15</armor>
+        <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>425</health>
-        <healthPerLevel>35</healthPerLevel>
+        <health>500</health>
+        <healthPerLevel>25</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
-        <spellResist>15</spellResist>
+        <spellResist>5</spellResist>
         <spellResistPerLevel>1</spellResistPerLevel>
         <spellDamage>15</spellDamage>
         <spellDamagePerLevel>2</spellDamagePerLevel>
@@ -94,7 +94,7 @@
         <castDelay>0</castDelay>
         <spellCoolDown>10000</spellCoolDown>
         <spellGlobalCoolDown>0</spellGlobalCoolDown>
-        <damage>20</damage>
+        <damage>50</damage>
         <damageRatio>0.6</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>3000</spellDuration>
@@ -113,8 +113,8 @@
         <castDelay>0</castDelay>
         <spellCoolDown>12000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
-        <damage>20</damage>
-        <damageRatio>0.6</damageRatio>
+        <damage>75</damage>
+        <damageRatio>0.2</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>1500</spellDuration>
       </spell2>
@@ -130,10 +130,10 @@
         <spellRange>3.675</spellRange>
         <castType>INSTANT</castType>
         <castDelay>500</castDelay>
-        <spellCoolDown>45000</spellCoolDown>
+        <spellCoolDown>40000</spellCoolDown>
         <spellGlobalCoolDown>1000</spellGlobalCoolDown>
         <damage>65</damage>
-        <damageRatio>0.5</damageRatio>
+        <damageRatio>0.2</damageRatio>
         <spellArea>0.5</spellArea>
         <spellDuration>5000</spellDuration>
       </spell3>
@@ -158,8 +158,8 @@
       </spell4>
       <playerData>
         <playerName>finn</playerName>
-        <playerDisplayName>finn_display_name</playerDisplayName>
-        <playerDescription>finn_description</playerDescription>
+        <playerDisplayName>finn_skin_fire_name</playerDisplayName>
+        <playerDescription>finn_skin_fire_description</playerDescription>
         <playerDescriptionShort>finn_description_short</playerDescriptionShort>
         <playerPortrait>finn</playerPortrait>
         <playerBackground>background_finn</playerBackground>

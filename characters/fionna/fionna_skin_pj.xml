@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,23 +36,23 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>Fiona_Mesh-fiona_pajama_D</String>
-		<String>Box006-CrystalSword</String>
-	  </brushMaterialNames>
+        <String>Fiona_Mesh-fiona_pajama_D</String>
+        <String>Box006-CrystalSword</String>
+      </brushMaterialNames>
       <collisionRadius>0.4</collisionRadius>
       <actorName>fionna</actorName>
       <assetBundle>fionna_pajama</assetBundle>
       <skinType>fionna</skinType>
       <skinIcon>fionna_pajama</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>MELEE</attackType>
-	  <role1>FIGHTER</role1>
-	  <role2>TANK</role2>
+      <attackType>MELEE</attackType>
+      <role1>FIGHTER</role1>
+      <role2>TANK</role2>
       <actorStats>
         <attackDamage>50</attackDamage>
         <attackDamagePerLevel>5</attackDamagePerLevel>
         <attackSpeed>1400</attackSpeed>
-        <attackSpeedPerLevel>60</attackSpeedPerLevel>
+        <attackSpeedPerLevel>15</attackSpeedPerLevel>
         <attackRange>1.5</attackRange>
         <criticalChance>0</criticalChance>
         <criticalDamage>1.25</criticalDamage>
@@ -59,8 +60,8 @@
         <armorPenetration>0</armorPenetration>
         <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>500</health>
-        <healthPerLevel>50</healthPerLevel>
+        <health>425</health>
+        <healthPerLevel>35</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
@@ -76,7 +77,7 @@
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -96,7 +97,7 @@
         <damageRatio>0.4</damageRatio>
         <spellArea>1.5</spellArea>
         <spellDuration>3000</spellDuration>
-		<multicast>True</multicast>
+        <multicast>True</multicast>
       </spell1>
       <spell2>
         <spellType>SPELL2</spellType>
@@ -181,10 +182,10 @@
         <autoLevelData>1513121453abc</autoLevelData>
       </scriptData>
       <scripts>
-		<script>actors/champions/fionna/fionna.lua</script>
+        <script>actors/champions/fionna/fionna.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -253,7 +254,7 @@
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects />
       <soundObjects>
         <String>sfx_finn_auto_attack_1</String>
@@ -287,10 +288,10 @@
         <String>fionna_grunt3</String>
         <String>sfx_fionna_attack_up</String>
         <String>sfx_fionna_dash_large</String>
-		<String>sfx_fionna_dash_small</String>
-		<String>sfx_fionna_dash_wind</String>
-		<String>sfx_fionna_health_regen</String>
-		<String>sfx_fionna_invuln</String>
+        <String>sfx_fionna_dash_small</String>
+        <String>sfx_fionna_dash_wind</String>
+        <String>sfx_fionna_health_regen</String>
+        <String>sfx_fionna_invuln</String>
       </soundObjects>
       <effectObjects>
         <String>fionna_attack_up</String>

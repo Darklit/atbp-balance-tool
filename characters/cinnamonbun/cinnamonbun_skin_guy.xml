@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <actor>
   <version>6</version>
   <Colliders>
@@ -35,24 +36,25 @@
   <MonoBehaviours>
     <ActorData>
       <brushMaterialNames>
-		<String>CBun_Guy_Farting-CBun_Guy_D</String>
-		<String>CBun_Guy_Hat-CBun_Guy_D</String>
-		<String>CBun_Guy_Monacle-CBun_Guy_D</String>
-		<String>CBun_Cane-CBun_Guy_D</String>	</brushMaterialNames>
+        <String>CBun_Guy_Farting-CBun_Guy_D</String>
+        <String>CBun_Guy_Hat-CBun_Guy_D</String>
+        <String>CBun_Guy_Monacle-CBun_Guy_D</String>
+        <String>CBun_Cane-CBun_Guy_D</String>
+      </brushMaterialNames>
       <collisionRadius>0.5</collisionRadius>
       <actorName>cinnamonbun</actorName>
       <assetBundle>cinnamon_bun_guy</assetBundle>
       <skinType>cinnamonbun</skinType>
       <skinIcon>cb_outfit_guy</skinIcon>
       <actorType>CHAMPION</actorType>
-	  <attackType>MELEE</attackType>
-	  <role1>FIGHTER</role1>
-	  <role2>TRAPPER</role2>
+      <attackType>MELEE</attackType>
+      <role1>FIGHTER</role1>
+      <role2>TRAPPER</role2>
       <actorStats>
         <attackDamage>45</attackDamage>
         <attackDamagePerLevel>4</attackDamagePerLevel>
         <attackSpeed>1600</attackSpeed>
-        <attackSpeedPerLevel>30</attackSpeedPerLevel>
+        <attackSpeedPerLevel>50</attackSpeedPerLevel>
         <attackRange>1.8</attackRange>
         <criticalChance>0</criticalChance>
         <criticalDamage>1.25</criticalDamage>
@@ -60,8 +62,8 @@
         <armorPenetration>0</armorPenetration>
         <armor>5</armor>
         <armorPerLevel>1</armorPerLevel>
-        <health>500</health>
-        <healthPerLevel>25</healthPerLevel>
+        <health>420</health>
+        <healthPerLevel>30</healthPerLevel>
         <healthRegen>2</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
         <spellResist>5</spellResist>
@@ -73,11 +75,11 @@
         <spellVamp>0</spellVamp>
         <spellPenetration>0</spellPenetration>
         <aggroRange>4</aggroRange>
-        <speed>2.7</speed>
+        <speed>2.8</speed>
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
-      	<valueScore>25</valueScore>
+        <valueScore>25</valueScore>
       </actorStats>
       <spell1>
         <spellType>SPELL1</spellType>
@@ -113,7 +115,7 @@
         <spellCoolDown>17000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
         <damage>10</damage>
-        <damageRatio>0.30</damageRatio>
+        <damageRatio>0.3</damageRatio>
         <spellArea>1.5</spellArea>
         <spellDuration>5000</spellDuration>
       </spell2>
@@ -132,7 +134,7 @@
         <spellCoolDown>55000</spellCoolDown>
         <spellGlobalCoolDown>500</spellGlobalCoolDown>
         <damage>50</damage>
-        <damageRatio>0.5</damageRatio>
+        <damageRatio>0.35</damageRatio>
         <spellArea>2</spellArea>
         <spellDuration>5500</spellDuration>
       </spell3>
@@ -181,10 +183,10 @@
         <autoLevelData>1212525121abc</autoLevelData>
       </scriptData>
       <scripts>
-		<script>actors/champions/cinnamonbun/cinnamonbun.lua</script>
+        <script>actors/champions/cinnamonbun/cinnamonbun.lua</script>
         <script>actors/common/core_player.lua</script>
         <script>actors/common/core_healing.lua</script>
-		<script>actors/common/controlstate_manager.lua</script>
+        <script>actors/common/controlstate_manager.lua</script>
         <script>actors/common/levelup.lua</script>
       </scripts>
       <requiresHealthBar>True</requiresHealthBar>
@@ -253,7 +255,7 @@
     </ActorData>
     <ManifestData>
       <setObject />
-	  <actorBundles />
+      <actorBundles />
       <actorObjects />
       <soundObjects>
         <String>sfx_cb_auto_attack_1</String>
@@ -286,18 +288,18 @@
         <String>vo/vo_cb_respawn_3</String>
         <String>vo/vo_cb_respawn_4</String>
         <String>sfx_cb_power1</String>
-		<String>sfx_cb_power3a</String>
-		<String>sfx_cb_power3b</String>
-		<String>sfx_cb_power3c</String>
-		<String>sfx_cb_power3_end</String>
-		<String>sfx_marceline_beast_crit_activate</String>
-		<String>vo/vo_cb_wanna_pet</String>
+        <String>sfx_cb_power3a</String>
+        <String>sfx_cb_power3b</String>
+        <String>sfx_cb_power3c</String>
+        <String>sfx_cb_power3_end</String>
+        <String>sfx_marceline_beast_crit_activate</String>
+        <String>vo/vo_cb_wanna_pet</String>
       </soundObjects>
       <effectObjects>
-		<String>marceline_beast_crit_hand</String>
-		<String>cb_lance_jab_v2</String>
-		<String>cb_frosting_slide</String>
-		<String>cb_frosting_ring_sm</String>
+        <String>marceline_beast_crit_hand</String>
+        <String>cb_lance_jab_v2</String>
+        <String>cb_frosting_slide</String>
+        <String>cb_frosting_ring_sm</String>
         <String>cb_frosting_ring_big</String>
         <String>cb_ring_explode_big</String>
         <String>cb_ring_sm_explode</String>

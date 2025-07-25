@@ -56,13 +56,13 @@
         <criticalDamage>1.25</criticalDamage>
         <lifeSteal>10</lifeSteal>
         <armorPenetration>0</armorPenetration>
-        <armor>5</armor>
+        <armor>13</armor>
         <armorPerLevel>1</armorPerLevel>
         <health>420</health>
         <healthPerLevel>30</healthPerLevel>
         <healthRegen>3</healthRegen>
         <healthRegenPerLevel>1</healthRegenPerLevel>
-        <spellResist>5</spellResist>
+        <spellResist>13</spellResist>
         <spellResistPerLevel>1</spellResistPerLevel>
         <spellDamage>50</spellDamage>
         <spellDamagePerLevel>3</spellDamagePerLevel>
@@ -71,7 +71,7 @@
         <spellVamp>20</spellVamp>
         <spellPenetration>0</spellPenetration>
         <aggroRange>2.5</aggroRange>
-        <speed>2.85</speed>
+        <speed>2.80</speed>
         <weaponType>0</weaponType>
         <pLevel>0</pLevel>
         <visionDistance>10</visionDistance>
